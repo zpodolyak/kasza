@@ -1,0 +1,226 @@
+/*------------------------------------------------------------------------
+# JA Xenia II - Feb, 2007
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2006 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+a:hover, a:active, a:focus {
+	color: #FFFF99;
+}
+
+ul li {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+blockquote {
+	background: url(../../images/orange/quote.gif) 20px 10px no-repeat;
+}
+
+pre, .code {
+	border-left-color: #FFFF00;
+}
+
+.dropcap, .error, .message, .tips, .bignumber, .highlight {
+	color: #FFFF00;
+}
+
+a.readon:hover, a.readon:active, a.readon:focus {
+	color: #FFFF00;
+	background: url(../../images/orange/readmore-on.gif) no-repeat 5% 50% #484848;
+	text-decoration: none;
+}
+
+table.contenttoc td {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+.blog_more ul li {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+span.ja-sitetool {
+	color: #FFFF00;
+}
+
+#ja-search .inputbox {
+	border-color: #FFFF00;
+}
+
+a.sublevel {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+a.sublevel:hover,
+a.sublevel:active,
+a.sublevel:focus,
+#active_menu {
+	background-image: url(../../images/orange/arrow.gif);
+	color: #FFFF99;
+}
+
+#ja-topnavwrap li a:hover,
+#ja-topnavwrap li a:active,
+#ja-topnavwrap li a:focus {
+	color: #FFFF99;
+}
+
+#ja-header {
+	background: url(../../images/orange/header-bg.gif) repeat-x top #FFFF00;
+}
+
+#ja-topnavwrap {
+	background: url(../images/orange/topnav-right-bg.gif) no-repeat bottom right;
+}
+
+#ja-topnavwrap ul {
+	background: url(../images/orange/topnav-left-bg.gif) no-repeat bottom left;
+}
+
+div.moduletable h3 {
+	background: url(../images/orange/h3-bg.gif) no-repeat bottom right;
+	color: #FFFF00;
+}
+
+div.module h3 {
+	color: #FFFF00;
+}
+
+a.mainlevel:hover,
+a.mainlevel:active,
+a.mainlevel:focus,
+a.mainlevel#active_menu {
+	background-image: url(../../images/orange/a-mainlevel-bg2.gif);
+	color: #FFFF99;
+}
+
+#ja-topsl li a:hover, #ja-topsl li a:active, #ja-topsl li a:focus,
+#ja-botsl li a:hover, #ja-botsl li a:active, #ja-botsl li a:focus {
+	color: #FFFF99;
+}
+
+#ja-topsl li,
+#ja-botsl li {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+#ja-leftcol ul li,
+#ja-rightcol ul li {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+#ja-leftcol ul.menu li,
+#ja-rightcol ul.menu li {
+}
+
+div.module-ja-newssb ul.ja-newslinks li {
+	background-image: url(../../images/orange/arrow.gif);
+}
+
+.button:hover {
+	color: #FFFF00;
+	background: url(../../images/orange/readmore-on.gif) no-repeat left #484848;
+}
+
+#ja-footer a:hover,
+#ja-footer a:active,
+#ja-footer a:focus {
+	color: #FFFF99;
+}
+
+/* Split Menu
+------------------------------------------------------*/
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus,
+#ja-subnav a:hover,
+#ja-subnav a:active,
+#ja-subnav a:focus,
+#ja-subnav li.active a,
+#ja-subnav li.active a:hover,
+#ja-subnav li.active a:active,
+#ja-subnav li.active a:focus {
+	color: #FFFF00!important;
+}
+
+/* Son of Suckerfish Dropdowns
+---------------------------------------------------------*/
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu li li a.active {
+	color: #FFFF00!important;
+}
+
+/* Transmenu
+---------------------------------------------------------*/
+.transMenu .item.hover,
+.transMenu .item#active,
+.transMenu .item.hover {
+	color: #FFFF00!important;
+}
+
+a.havechild-mainlevel-active-trans,
+a.havechild-mainlevel-active-trans:hover,
+a.havechild-mainlevel-active-trans:active,
+a.havechild-mainlevel-active-trans:focus,
+a.mainlevel-active-trans,
+a.mainlevel-active-trans:hover,
+a.mainlevel-active-trans:active,
+a.mainlevel-active-trans:focus {
+	color: #FFFF00!important;
+}
+
+/* Script Dropline Menu
+---------------------------------------------------------*/
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus,
+#jasdl-subnav a:hover,
+#jasdl-subnav a:active,
+#jasdl-subnav a:focus,
+#jasdl-subnav ul li.active a {
+	color: #FFFF00!important;
+}
+
+/* JA News
+---------------------------------------------------------*/
+.ja-newscat span {
+	background: url(../../images/orange/h3-bg.gif) no-repeat bottom right!important;
+	color: #FFFF00!important;
+}
+
+#jahl-indicator {
+	background: none!important;
+}
+
+/* Hilite Module */
+div.module-hilite h3 {
+	color: #FFFF00;
+}
+
+div.module-hilite {
+	background: url(../../images/orange/box-hilite-br.gif) no-repeat bottom right #484848!important;
+}
+
+div.module-hilite div {
+	background: url(../../images/orange/box-hilite-bl.gif) no-repeat bottom left!important;
+}
+
+div.module-hilite div div {
+	background: url(../../images/orange/box-hilite-tr.gif) no-repeat top right!important;
+}
+div.module-hilite div div div {
+	background: url(../../images/orange/box-hilite-tl.gif) no-repeat top left!important;
+}
+
+div.module-ja-newssb ul.ja-newslinks li a:hover,
+div.module-ja-newssb ul.ja-newslinks li a:active,
+div.module-ja-newssb ul.ja-newslinks li a:focus {
+	color: #FFFF00!important;
+	text-decoration: none;
+}

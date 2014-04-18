@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2.3" type="template">
+	<name>kaszasok</name>
+	<creationDate>4/16/2014</creationDate>
+	<author>ZP</author>
+	<copyright>2014</copyright>
+	<authorEmail>webmaster@kaszasok.hu</authorEmail>
+	<authorUrl>http://www.kaszasok.hu</authorUrl>
+	<version>1.0</version>
+	<description>Kaszasok Joomla template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>weekly_banner</position>
+		<position>debug</position>
+		<position>left</position>
+		<position>right</position>
+    </positions>
+</extension>

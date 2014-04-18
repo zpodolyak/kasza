@@ -224,6 +224,7 @@
 /administrator/templates/system/*
 /administrator/templates/index.html
 /administrator/index.php
+/administrator/*
 /bin/*
 /cache/*
 /cli/*
@@ -239,11 +240,13 @@
 /components/com_weblinks/*
 /components/com_wrapper/*
 /components/index.html
+/components/*
 /images/banners/*
 /images/sampledata/*
 /images/joomla*
 /images/index.html
 /images/powered_by.png
+/images/*
 /includes/*
 /installation/*
 /language/en-GB/en-GB.com_contact.ini
@@ -317,6 +320,7 @@
 /language/en-GB/install.xml
 /language/overrides/*
 /language/index.html
+/language/*
 /layouts/index.html
 /layouts/joomla/*
 /layouts/joomla/content/*
@@ -330,6 +334,7 @@
 /layouts/joomla/toolbar/*
 /layouts/libraries/*
 /layouts/libraries/cms/*
+/layouts/*
 /libraries/cms.php
 /libraries/cms/*
 /libraries/joomla/*
@@ -340,6 +345,7 @@
 /libraries/import.php
 /libraries/loader.php
 /libraries/platform.php
+/libraries/*
 /logs/*
 /media/cms/*
 /media/com_finder/*
@@ -354,6 +360,7 @@
 /media/plg_system_highlight/*
 /media/system/*
 /media/index.html
+/media/*
 /modules/mod_articles_archive/*
 /modules/mod_articles_categories/*
 /modules/mod_articles_category/*
@@ -379,6 +386,8 @@
 /modules/mod_whosonline/*
 /modules/mod_wrapper/*
 /modules/index.html
+/modules/*
+/phpmyadmin
 /plugins/authentication/example/*
 /plugins/authentication/gmail/*
 /plugins/authentication/joomla/*
@@ -439,9 +448,10 @@
 /plugins/user/profile/*
 /plugins/user/index.html
 /plugins/index.html
+/plugins/*
 /templates/atomic/*
 /templates/beez_20/*
-/templates/beez5/*
+/templates/beez3/*
 /templates/protostar/*
 /templates/system/*
 /templates/index.html
@@ -456,3 +466,4 @@
 /joomla.xml
 /phpinfo.php
 /*.txt
+/*.dist
