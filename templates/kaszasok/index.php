@@ -18,6 +18,7 @@ $sitename = $app->getCfg('sitename');
 // Add JavaScript Frameworks
 // JHtml::_('bootstrap.framework');
 $doc->addScript('templates/' .$this->template. '/js/ja.js');
+$doc->addScript('templates/' .$this->template. '/js/common.js');
 
 // Add Stylesheets
 $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
@@ -124,16 +125,16 @@ elseif ( $ja_right )
 <!-- BEGIN: FOOTER -->
 <div id="ja-footerwrap">
 <div id="ja-footer">
-    <div id="ja-sublogo">
-        <a href="<?php echo $kt_base;?>">Főoldalra</a>
-		<br />
-        <a href="index.php?option=com_login&Itemid=26">Be- és kijelentkezés</a>
-    </div>
+	<jdoc:include type="modules" name="login" style="none" />
+	<div id="ja-sublogo">
+		<a href="<?php echo $kt_base;?>"><?php echo JText::_('TPL_KASZASOK_TOHOME'); ?></a>
+		<br/>
+		<a hef="#" id="showpopup"><?php echo JText::_('TPL_KASZASOK_LOGINOUT'); ?></a>
+	</div>
 	<p id="ja-bottomline">
-			Copyright &copy; <?php echo '2005 - ' . date('Y') . ' ' . $sitename;?>.
-			<br />
+		Copyright &copy; <?php echo '2005 - ' . date('Y') . ' ' . $sitename;?>.
+		<br/>
 	</p>
-	
 	<div id="ja-cert">
 		<a href="<?php echo $kt_base; ?>index.php?option=com_rss&amp;feed=RSS2.0&amp;no_html=1" target="_blank" title="RSS 2.0" style="text-decoration: none;">
 			<img src="<?php echo $kt_template_path;?>/images/but-rss.gif" alt="RSS 2.0" />

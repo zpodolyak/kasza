@@ -21,5 +21,6 @@
 		<position>debug</position>
 		<position>left</position>
 		<position>right</position>
+    		<position>login</position>
     </positions>
 </extension>
