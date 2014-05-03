@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>System - Kaszasoklib</name>
+    <author>Joomla! Project</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>Copyright (C) 2005 - 2014 Obudai Kaszasok</copyright>
+    <license>GNU General Public License version 2 or later.</license>
+    <authorEmail>webmaster@kaszasok.hu</authorEmail>
+    <authorUrl>http://www.kaszasok.hu</authorUrl>
+    <version>1.0.0</version>
+    <description>Plugin to load Kaszasok library.</description>
+ 
+    <files>
+        <filename plugin="kaszasoklib">kaszasoklib.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>
