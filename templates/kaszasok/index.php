@@ -23,6 +23,7 @@ $doc->addScript('templates/' .$this->template. '/js/common.js');
 // Add Stylesheets
 $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/orange.css');
+$doc->addStyleSheet('templates/'.$this->template.'/css/kasza.css');
 
 // Load optional RTL Bootstrap CSS
 // JHtml::_('bootstrap.loadCss', false, $this->direction);

@@ -1,0 +1,13 @@
+.playerTeamView
+{
+	float: left;
+	font-family:tahoma;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #FFFF00;
+	padding: 3px;
+	padding-top: 0;
+	width: 30%;
+	height: 115px;
+	color:white;
+}

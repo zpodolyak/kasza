@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+        <name>com_kaszasteams</name>
+        <author>ZP</author>
+        <creationDate>May 2014</creationDate>
+        <copyright>(C) 2005 - 2014 Obudai Kaszasok</copyright>
+        <license>GNU General Public License version 2 or later</license>
+        <authorEmail>webmaster@kaszasok.hu</authorEmail>
+        <authorUrl>www.kaszasok.hu</authorUrl>
+        <version>1.0</version>
+        <description>COM_KASZASTEAMS_XML_DESCRIPTION</description>
+        <files folder="site">
+                <filename>controller.php</filename>
+                <filename>index.html</filename>
+                <filename>kaszasteams.php</filename>
+				<folder>models</folder>
+                <folder>views</folder>
+        </files>
+</extension>
