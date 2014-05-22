@@ -228,7 +228,10 @@
 /bin/*
 /cache/*
 /cli/*
+/components/com_ajax/*
 /components/com_banners/*
+/components/com_config/*
+/components/com_contenthistory/*
 /components/com_contact/*
 /components/com_content/*
 /components/com_finder/*
@@ -236,6 +239,7 @@
 /components/com_media/*
 /components/com_newsfeeds/*
 /components/com_search/*
+/components/com_tags/*
 /components/com_users/*
 /components/com_weblinks/*
 /components/com_wrapper/*
