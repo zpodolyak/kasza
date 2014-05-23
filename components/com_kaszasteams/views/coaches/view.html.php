@@ -29,11 +29,12 @@ class KaszasTeamsViewCoaches extends JViewLegacy
 		// Because the application sets a default page title,
 		// we need to get it from the menu item itself
 		$menu = $menus->getActive();
+		$params = $app->getParams();
 		if($menu) 
 		{
-			$this->params->def('page_heading', $this->params->get('page_title', $menu->title));
+			$params->def('page_heading', $params->get('page_title', $menu->title));
 		}
-		$title = $this->params->get('page_title');
+		$title = $params->get('page_title');
 		if(empty($title)) 
 		{
 			$title = htmlspecialchars_decode($app->getCfg('sitename'));

@@ -16,7 +16,7 @@ $itemid   = $app->input->getCmd('Itemid', '');
 $sitename = $app->getCfg('sitename');
 
 // Add JavaScript Frameworks
-// JHtml::_('bootstrap.framework');
+JHtml::_('bootstrap.framework');
 $doc->addScript('templates/' .$this->template. '/js/ja.js');
 $doc->addScript('templates/' .$this->template. '/js/common.js');
 

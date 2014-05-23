@@ -9,16 +9,16 @@ class KaszasTeamsModelCoaches extends JModelList
 	public function getListQuery()
 	{
 		$db = JFactory::getDBO();
-        $query = $db->getQuery(true);
+        	$query = $db->getQuery(true);
                 
-        $query->select('cname, picture, ordering, ctname, GROUP_CONCAT(DISTINCT kt.tname SEPARATOR \',\') teams')
-              ->from('k_coaches AS c')
+        	$query->select('c.cid, cname, picture, ordering, ctname, GROUP_CONCAT(DISTINCT kt.tname SEPARATOR \',\') teams')
+              		  ->from('k_coaches AS c')
 			  ->join('LEFT', 'k_coach_types AS ct ON c.ctid = ct.ctid')
 			  ->join('LEFT', 'k_coaches2teams AS k2t ON c.cid = k2t.cid')
 			  ->join('LEFT', 'k_teams AS kt ON k2t.tid = kt.tid GROUP BY c.cid')
 			  ->order('ordering');
  
-        return $query;
+        	return $query;
 	}
 }
 
